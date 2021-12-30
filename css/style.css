@@ -1,0 +1,8 @@
+.img-background {
+  position: relative;
+  top: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: -2;
+}
