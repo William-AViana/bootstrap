@@ -5,92 +5,207 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Banda W</title>
+  <title>Site Banda Show</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
-    <div class="container-fluid">
-      <ul class="flex-row navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link mx-3" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-3" href="#">Banda</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-3" href="#">Tour</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mx-3" href="#">Contato</a>
-        </li>
-      </ul>
+  <div class="container">
+    <div class="row">
+      <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark py-2">
+        <ul class="flex-row navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link ms-3" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-3" href="#band">Banda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-3" href="#tour">Tour</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-3" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    </div>
-  </nav>
+  </div>
 
   <section id="home">
-    <img src="img/pexels-thibault-trillet-167636.jpg" alt="" class="img-fluid img-background">
+    <div class="container-fluid p-0">
+      <img src="./assets/img/pexels-thibault-trillet-167636.jpg" alt="" class="img-fluid img-background">
+    </div>
   </section>
 
   <section id="band">
-    <div class="container-fluid pt-4">
-      <div class="row text-center">
-        <h2>A Banda</h2>
-        <p>Nós respiramos música</p>
-      </div>
-      <p class="text-start my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos fugiat optio minima sequi
-        non dolorum, cumque,
-        incidunt pariatur magnam laborum id quia. A, officia. Nihil laborum obcaecati nemo deserunt eveniet?</p>
-
-      <div class="row py-5">
-        <div class="col-12 col-md-4 p-0 text-center">
-          <p>Nome</p>
-          <img src="img/perfil.jpg" alt="imagem de perfil dos integrantes da banda" class="img-fluid mb-4">
-        </div>
-        <div class="col-12 col-md-4 p-0 text-center">
-          <p>Nome</p>
-          <img src="img/perfil.jpg" alt="imagem de perfil dos integrantes da banda" class="img-thumbnail mb-4">
-        </div>
-        <div class="col-12 col-md-4 p-0 text-center">
-          <p>Nome</p>
-          <img src="img/perfil.jpg" alt="imagem de perfil dos integrantes da banda" class="img-thumbnail">
+    <div class="container py-5">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-8">
+          <h2 class="text-center">A Banda</h2>
+          <p class="text-center mb-4">Nós respiramos música</p>
+          <p class="text-start p-0 mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+            fugiat optio
+            minima
+            sequi
+            non dolorum, cumque,
+            incidunt pariatur magnam laborum id quia. A, officia. Nihil laborum obcaecati nemo deserunt eveniet?</p>
         </div>
       </div>
-    </div>
-  </section>
 
-  <section id="tour">
-    <div class="container-fluid py-5 bg-dark">
-      <div class="row text-center text-light">
-        <h2 class="my-2">Datas da Turnê</h2>
-        <p class="my-3">Lembre-se de levar o seu ingresso!</p>
-      </div>
-
-      <div class="card">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Dezembro <span class="bg-danger p-1 ms-3 text-light">Esgotado</span></li>
-          <li class="list-group-item">Janeiro <span class="bg-danger p-1 ms-3 text-light">Esgotado</span></li>
-          <li class="list-group-item">Fevereiro <span class="bg-success p-1 ms-3 text-light">Disponível</span></li>
-        </ul>
-      </div>
-
-      <div class="card-group">
-        <div class="card">
-          <img src="img/novayork.jpg" alt="">
-          <div class="card-body">
-            <h5>Nova York</h5>
-            <p class="card-text"><small class="text-muted">Sexta 31 Dez 2021</small></p>
-            <p class="card-text">Últimos ingrssos!</p>
-            <button type="button" class="btn btn-outline-dark">Comprar</button>
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-3">
+          <div class="row justify-content-center">
+            <p class="text-center p-0">Nome</p>
+            <img src="./assets/img/perfil.jpg" alt="imagem de perfil dos integrantes da banda"
+              class="img-thumbnail p-1 mb-4 img-band-card">
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="row justify-content-center">
+            <p class="text-center p-0">Nome</p>
+            <img src="./assets/img/perfil.jpg" alt="imagem de perfil dos integrantes da banda"
+              class="img-thumbnail p-1 mb-4 img-band-card">
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="row justify-content-center">
+            <p class="text-center p-0">Nome</p>
+            <img src="./assets/img/perfil.jpg" alt="imagem de perfil dos integrantes da banda"
+              class="img-thumbnail p-1 mb-4 img-band-card">
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <section id="tour" class="bg-dark">
+    <div class="container py-5 bg-dark">
+      <div class="row">
+        <h2 class="text-center text-light my-2">Datas da Turnê</h2>
+        <p class="text-center text-light my-3">Lembre-se de levar o seu ingresso!</p>
+      </div>
+
+      <br>
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 p-0">
+          <div class="card mx-3 mx-md-0">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Dezembro <span class="bg-danger p-1 ms-3 text-light">Esgotado</span></li>
+              <li class="list-group-item">Janeiro <span class="bg-danger p-1 ms-3 text-light">Esgotado</span></li>
+              <li class="list-group-item">Fevereiro <span class="bg-success p-1 ms-3 text-light">Disponível</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row justify-content-center py-5">
+        <div class="col-12 col-md-3 mb-3 mb-md-0">
+          <div class="card-group">
+            <div class="card">
+              <img src="./assets/img/novayork.jpg" alt="" class="img-local">
+              <div class="card-body">
+                <h5>Nova York</h5>
+                <p class="card-text"><small class="text-muted">Sexta 31 Dez 2021</small></p>
+                <p class="card-text">Esgotado</p>
+                <button type="button" class="btn btn-outline-danger" disabled>Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 mb-3 mb-md-0">
+          <div class="card-group">
+            <div class="card">
+              <img src="./assets/img/paris.jpg" alt="" class="img-local">
+              <div class="card-body">
+                <h5>Paris</h5>
+                <p class="card-text"><small class="text-muted">Sábado 15 Jan 2022</small></p>
+                <p class="card-text">Esgotado</p>
+                <button type="button" class="btn btn-outline-danger" disabled>Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 mb-3 mb-md-0">
+          <div class="card-group">
+            <div class="card">
+              <img src="./assets/img/novayork.jpg" alt="" class="img-local">
+              <div class="card-body">
+                <h5>San Francisco</h5>
+                <p class="card-text"><small class="text-muted">Domingo 06 Fev 2022</small></p>
+                <p class="card-text">Últimos ingressos!</p>
+                <button type="button" class="btn btn-outline-success">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h2 class="text-center mb-3">Contato</h2>
+          <p class="text-center mb-3">Fan? Deixe uma mensagem! </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-4 mt-3">
+          <div class="text-contact">
+            <img class="icon-contact" src="assets/local.svg">
+            São Paulo, BR
+          </div>
+          <div class="text-contact">
+            <img class="icon-contact" src="assets/telephone.svg">
+            Telefone: +55(11)1234-1234
+          </div>
+          <div class="text-contact">
+            <img class="icon-contact" src="assets/mail.svg">
+            Email: mail@mail.com
+          </div>
+        </div>
+
+        <form class="col-12 col-md-4 mt-3">
+          <div class="row mb-2">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nome">
+            </div>
+            <div class="col">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+          </div>
+          <div class="row mb-2">
+            <div class="col">
+              <textarea class="form-control" placeholder="Deixe sua mensagem"></textarea>
+            </div>
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-dark">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="container-fluid py-4 bg-dark">
+    <div class="row justify-content-center">
+      <div class="col">
+        <p class="text-center text-light m-0">Feito com ❤️ por <span>William Desenvolvedor
+            Front-end</span></p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
