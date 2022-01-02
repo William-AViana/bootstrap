@@ -33,11 +33,11 @@ esse site é por gostar muito de música e ser um músico.
 
 <h2>Projeto</h2>
 
-<p>Você pode ver o projeto através <a>esse link</a></p>
+<p>Você pode ver o projeto através <a href="https://site-da-banda-do-william.netlify.app/">desse link</a></p>
 
 <br>
 
 <h2>Licença</h2>
 
-<p>Esse projeto está sob licença MIT. Veja o arquivo <a>LICENCE</a> para mais 
+<p>Esse projeto está sob licença MIT. Veja o arquivo <a href="https://github.com/William-AViana/bootstrap/blob/add-license-1/LICENSE" target="_blank">LICENCE</a> para mais 
 detalhes.</p>
