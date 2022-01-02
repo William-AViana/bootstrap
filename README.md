@@ -33,7 +33,7 @@ esse site é por gostar muito de música e ser um músico.
 
 <h2>Projeto</h2>
 
-<p>Você pode ver o projeto através <a href="https://site-da-banda-do-william.netlify.app/">desse link</a></p>
+<p>Você pode ver o projeto através <a href="https://banda-do-william.netlify.app/">desse link</a></p>
 
 <br>
 
